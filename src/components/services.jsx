@@ -1,17 +1,17 @@
 import React from "react"
-import Service from "./service.jsx"
+import Service from "./service"
 
-import webApps from "../images/web.png"
-import mobileApps from "../images/app.png"
-import chatbots from "../images/chatbot.png"
-import desktop from "../images/desktop.png"
-import cloud from "../images/cloud.png"
-import extra from "../images/extra.png"
+import webApps from "../images/services/web.png"
+import mobileApps from "../images/services/app.png"
+import chatbots from "../images/services/chatbot.png"
+import desktop from "../images/services/desktop.png"
+import cloud from "../images/services/cloud.png"
+import extra from "../images/services/extra.png"
 
 const Services = () => (
   <section className="section" id="services">
     <div className="container has-text-centered">
-      <h1 className="title">
+      <h1 className="title section-title">
         {"{"} Servicios {"}"}
       </h1>
       <div className="columns has-text-centered">

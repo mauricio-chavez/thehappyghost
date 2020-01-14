@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Happy Ghost`,
-    description: `Handcrafted apps.`,
+    description: `Software hecho a mano y con amor.`,
     author: `The Happy Ghost`,
   },
   plugins: [
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `the-happy-ghost`,
+        short_name: `the-happy-ghost`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logos/logo.png`,
       },
     },
     `gatsby-plugin-sass`,

@@ -29,10 +29,10 @@ const Layout = ({ children }) => {
               <a href="#services">Servicios</a>
             </li>
             <li>
-              <a>Stack</a>
+              <a href="#stack">Stack</a>
             </li>
             <li>
-              <a>Contacto</a>
+              <a href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
